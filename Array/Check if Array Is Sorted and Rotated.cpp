@@ -17,7 +17,7 @@ public:
 };
 
 /*
-  We need to keep in mind that there can be 1 or more no that is smaller to previous one while iterating and if this thing happens so that array can never be sorted.
-  For cnt=1, we will check wheter that last element is smaller than 1st element in array bcoz then only it can be in increasing order , if last elemnt is greater so it is not considered as sorted array.
+  We need to keep in mind that there can be 1 or more number that is smaller to previous one while iterating and if this thing happens so that array can never be sorted.
+  For cnt=1, we will check whether that last element is smaller than 1st element in array bcoz then only it can be in increasing order , if last elemnt is greater so it is not considered as sorted array.
   T.C==> O(n)
 */
